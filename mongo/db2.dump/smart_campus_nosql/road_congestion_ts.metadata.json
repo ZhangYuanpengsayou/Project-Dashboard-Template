@@ -1,0 +1,1 @@
+{"options":{"timeseries":{"timeField":"ts","metaField":"segment_id","granularity":"seconds","bucketMaxSpanSeconds":{"$numberInt":"3600"}}},"indexes":[{"v":{"$numberInt":"2"},"key":{"segment_id":{"$numberInt":"1"},"ts":{"$numberInt":"1"}},"name":"segment_id_1_ts_1"}],"collectionName":"road_congestion_ts","type":"timeseries"}
